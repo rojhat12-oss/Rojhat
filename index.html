@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rojhat Haysam | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&family=Noto+Kufi+Arabic:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container nav-content">
+            <a href="#" class="logo">Rojhat Haysam</a>
+            <div class="nav-right">
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-links" id="nav-links">
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <select id="lang-switcher" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="ar">العربية</option>
+                    <option value="ku">کوردی</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-card">
+                <div class="hero-image">
+                    <img src="assets/images/profile.jpg" alt="Rojhat Haysam">
+                </div>
+
+                <p id="hero-greeting" class="greeting">Hi, I'm</p>
+                <h1 id="hero-name">Rojhat Haysam</h1>
+                <p id="hero-title" class="role-premium">Web Developer | Python Programmer</p>
+
+                <p id="hero-bio" class="bio-premium">"I turn ideas into working projects using code, data, and
+                    creativity. Available for Remote and Freelance work."</p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" id="btn-projects" class="btn btn-primary">My Projects <i
+                            class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" id="btn-contact-hero" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 id="skills-title" class="section-title">Skills</h2>
+            <div class="grid-cards">
+                <div class="card">
+                    <div class="icon-circle"><i class="fas fa-code"></i></div>
+                    <h3 id="skill-web-title">Web Dev</h3>
+                    <p id="skill-web-desc">HTML, CSS, JS, PHP</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><i class="fab fa-python"></i></div>
+                    <h3 id="skill-python-title">Python</h3>
+                    <p id="skill-python-desc">Data Analysis & Logic</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><i class="fas fa-magic"></i></div>
+                    <h3 id="skill-creative-title">Creative</h3>
+                    <p id="skill-creative-desc">Video Editing & Design</p>
+                </div>
+                <div class="card">
+                    <div class="icon-circle"><i class="fas fa-file-excel"></i></div>
+                    <h3 id="skill-excel-title">Excel</h3>
+                    <p id="skill-excel-desc">Analysis & Formulas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section alt-bg">
+        <div class="container">
+            <h2 id="projects-title" class="section-title">Projects</h2>
+            <div class="grid-cards">
+                <div class="card project-card">
+                    <h3 id="proj-1-title">Student Management System</h3>
+                    <p id="proj-1-desc">Efficiently manage student info using PHP & MySQL.</p>
+                </div>
+                <div class="card project-card">
+                    <h3 id="proj-2-title">Horror Game</h3>
+                    <p id="proj-2-desc">Atmospheric horror experience focused on game logic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 id="contact-title" class="section-title">Contact Me</h2>
+            <p id="contact-avail" class="avail-text">Available for freelance work</p>
+
+            <div class="contact-buttons">
+                <a href="https://wa.me/9647517466077" target="_blank" id="btn-whatsapp" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
+                </a>
+                <a href="https://instagram.com/rojhat_haysam" target="_blank" id="btn-instagram"
+                    class="btn btn-instagram">
+                    <i class="fab fa-instagram"></i> <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Rojhat Haysam</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
